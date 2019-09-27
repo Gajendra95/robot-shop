@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: rabbitmq
-        image: rabbitmq:3.7-management-alpine
+        image: sreedocker123/rabbitmq:latest
         ports:
         - containerPort: 5672
         - containerPort: 15672
